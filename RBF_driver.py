@@ -40,4 +40,4 @@ if __name__ == "__main__":
         
     t1 = time.time()
     print('all done, elapsed time: {:.1f} minutes'.format((t1-t0)/60))
-    os.system("aplay /usr/shared/sounds/bicycle_bell.wav")
+    os.system("aplay /usr/share/sounds/bicycle_bell.wav")
